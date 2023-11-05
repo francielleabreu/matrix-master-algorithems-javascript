@@ -23,6 +23,22 @@
     <ul>
         <li>Friday: 3rd Highest Number in Array</li>
     </ul>
+    <h2>Week 2 - Intermediate Algorithms</h2>
+    <ul>
+        <li>Monday: Largest Number in Arrays</li>
+    </ul>
+    <ul>
+        <li>Tuesday: Find the longest Word in a String</li>
+    </ul>
+    <ul>
+        <li>Wednesday: Title Case a Sentence</li>
+    </ul>
+    <ul>
+        <li>Thursday: Sum All Numbers in a Range</li>
+    </ul>
+    <ul>
+        <li>Friday: Fibonacci Sequence</li>
+    </ul>
     <h2>Matrix Master</h2>
     <p>Matrix Master is a company based in Rotterdam, the Netherlands, that offers bootcamps and training in web development and technology. Learn more about the company at: <a href="https://matrixmaster.info/">https://matrixmaster.info/</a></p>
     <h2>Technologies Used</h2>
