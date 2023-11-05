@@ -2,7 +2,6 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Matrix Master Algorithms</title>
 </head>
 <body>
     <h1>Matrix Master Algorithms</h1>
