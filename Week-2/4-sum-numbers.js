@@ -12,3 +12,27 @@
 // sumAll([1, 4]) should return 10.
 // sumAll([4, 1]) should return 10.
 // sumAll([5, 10]) should return 45.
+
+
+// Pseudoce
+// Function
+// Declare variables
+// Use methods math.max and math.min
+// Need for loop
+// Print it
+
+function sumAll(arr) {
+    let firstNumber = Math.max(...arr)
+    let secondNumber = Math.min(...arr)
+    let total = firstNumber + secondNumber
+
+    for (let i = secondNumber + 1; i < firstNumber; i++) {
+        total += i
+    }
+
+    return total
+}
+
+console.log(sumAll([1, 4]));// Return 10
+console.log(sumAll([4, 1]));// Return 10
+console.log(sumAll([5, 10]));// Return 45
