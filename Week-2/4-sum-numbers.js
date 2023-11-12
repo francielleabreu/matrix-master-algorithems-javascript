@@ -22,29 +22,13 @@
 // Return result
 // Print it
 
-// function sumAll(arr) {
-//     let firstNumber = Math.max(...arr)
-//     let secondNumber = Math.min(...arr)
-//     let total = firstNumber + secondNumber
-
-//     for (let i = secondNumber + 1; i < firstNumber; i++) {
-//         total += i
-//     }
-
-//     return total
-// }
-
-// console.log(sumAll([1, 4]));// Return 10
-// console.log(sumAll([4, 1]));// Return 10
-// console.log(sumAll([5, 10]));// Return 45
-
 function sumAll(arr) {
     let value1 = arr[0]
     let value2 = arr[1]
 
     let min = 0
     let max = 0
-    if(value1 >= value2) {
+    if (value1 >= value2) {
         max = value1
         min = value2
     } else {
