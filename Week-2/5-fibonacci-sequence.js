@@ -18,9 +18,39 @@
 // n = 881 -> x
 
 // function fibonacci(n) {
-    
+
 // }
 // console.log("The 101st term is: " + fibonacci(10))
 // console.log("The 227th term is: {fibonacci_dynamic(227)}")
 // console.log("The 491st term is: {fibonacci_dynamic(491)}")
 // console.log("The 881st term is: {fibonacci_dynamic(881)}")
+
+// Pseudocode
+// Declare a function - n as an input
+// Check with if
+// Creat variable prev, curr and result number
+// Sum prev and curr
+// Update variables
+// Print it
+
+const fibonacci = (n) => {
+    if (n <= 0) {
+        return "Please enter a valid input"
+    } else if (n === 1 || n === 2) {
+        return 1
+    } else {
+        let currentIndex = 1;
+        let prevIndex = 1;
+        for (let i = 3; i <= n; i++) {
+            let sum = currentIndex + prevIndex;
+
+            currentIndex = prevIndex;
+            prevIndex = sum;
+        }
+        return prevIndex;
+    }
+}
+console.log("The 101st term is: " + fibonacci(10));
+// console.log("The 101st term is: " + fibonacci(227));
+// console.log("The 101st term is: " + fibonacci(491));
+// console.log("The 101st term is: " + fibonacci(881));
