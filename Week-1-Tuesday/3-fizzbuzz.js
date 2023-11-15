@@ -15,14 +15,13 @@ let newArray = []
 
 for (let i = 1; i <= 135; i++) {
     if (i % 3 === 0) {
-        newArray.push("Fizz")
-
+        newArray[newArray.length] = "Fizz"
     } else if (i % 5 === 0) {
-        newArray.push("Buzz")
+        newArray[newArray.length] = "Buzz"
     } else if (i % 3 === 0 && i % 5 === 0) {
-        newArray.push("FizzBuzz")
+        newArray[newArray.length] = "FizzBuzz"
     } else {
-        newArray.push(i)
+        newArray[newArray.length] = i
     }
 }
 console.log(newArray);

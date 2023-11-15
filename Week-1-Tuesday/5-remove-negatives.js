@@ -15,7 +15,7 @@ let newArray = []
 
 for (let i = 0; i < values.length; i++) {
     if (values[i] > 0) {
-        newArray.push(values[i])
+        newArray[newArray.length] = values[i]
     }
 }
 console.log(newArray);
